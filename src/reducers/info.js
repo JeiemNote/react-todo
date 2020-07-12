@@ -2,10 +2,7 @@
 const initialState = {
     todo: [
         {id: 0, text: "Захват мира", completed: false},
-
     ]
-
-
 }
 
 

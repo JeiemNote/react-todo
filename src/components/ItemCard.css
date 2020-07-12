@@ -1,0 +1,27 @@
+.Card {
+    width: 700px;
+    height: 60px;
+    border: 2px solid black;
+    margin: 10px auto;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+.LabelCard {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+}
+.TrashButton {
+    border: none;
+    background-color: white;
+}
+.CompletedCard {
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: line-through;
+}

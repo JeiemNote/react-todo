@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 import {ReactComponent as Trash} from "./Trash.svg"
 
 function ItemCard(props) {
+
     function handler(event) {
         let check;
         event.target.checked ? check = true : check = false

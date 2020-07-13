@@ -1,16 +1,16 @@
-
+// Инициализируем наш стейт
 const initialState = {
     todo: [
         {id: 0, text: "Захват мира", completed: false},
     ]
 }
 
-
+// И собственно всё что мы делаем с состоянием нашего приложения
 export default function userInfo(state = initialState, action) {
     switch (action.type) {
-        case 'ADD_TODO':
+        case 'ADD_TODO': // По полю type в экшенах мы и определяем что же запускать.
             return {
-                ...state,
+                ...state, // Берём старый стейт и делаем новый, вставляя в него новые поля
                 todo: [...state.todo,
                     {
                         id: state.todo.length,

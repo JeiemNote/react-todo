@@ -1,15 +1,15 @@
 Список задач (todo-list)
 Готовый список задач без регистрации. Для хранения списка использовал redux
 
-Функционал: 
-Создание карточки
-Удаление карточки
+# Функционал: 
+Создание карточки  <br />
+Удаление карточки <br />
 
-Stack:
-React-js
-React-bootstrap
-React-redux
-redux
+# Stack:
+React-js<br />
+React-bootstrap<br />
+React-redux<br />
+redux<br />
 
 ### `yarn start`
 ### `npm start`
